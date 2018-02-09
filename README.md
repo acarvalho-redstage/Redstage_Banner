@@ -9,6 +9,11 @@ Store / Configuration / Redstage / Banner
     * Enabled: Display promotional banner.
     * Content: Customize all banner content (variables, images, videos, etc...).
 
+## Screenshots
+
+![Alt text](docs/promo-banner.png "Promo Banner")
+![Alt text](docs/promo-settings.png "Promo Settings")
+
 ## Magento Compatible Versions
 
 * *Magento Community Edition* **2.2.0** >
@@ -17,10 +22,22 @@ Store / Configuration / Redstage / Banner
 
 * PHP 5.6 >
 
-## Modman usage
+## Developer Installation
 
-`modman deploy Redstage_Banner --copy --force`
+In the Magento 2 root folder start a modman repository:
 
-## Enable module
+```bash
+modman init
+```
 
-`php bin/magento module:status enable Redstage_Banner`
+Clone the module directly from github repository:
+
+```bash
+modman clone https://github.com/acarvalho-redstage/Redstage_Banner.git
+```
+
+## Enable Module
+
+```bash
+php bin/magento module:status enable Redstage_Banner
+```
