@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="redstage" translate="label" sortOrder="450">
+            <label>Redstage</label>
+        </tab>
+        <section id="redstage_banner" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Banner</label>
+            <tab>redstage</tab>
+            <resource>Redstage_Banner::redstage_banner</resource>
+            <group id="promo" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Promo Options</label>
+                <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="content" translate="label" type="editor" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Content</label>
+                    <frontend_model>Redstage\Banner\Block\Adminhtml\System\Config\Editor</frontend_model>
+                    <depends>
+                        <field id="*/*/enabled">1</field>
+                    </depends>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

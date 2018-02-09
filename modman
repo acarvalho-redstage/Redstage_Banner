@@ -1,0 +1,16 @@
+app/code/Redstage/Banner/i18n/pt_BR.csv app/code/Redstage/Banner/i18n/pt_BR.csv
+app/code/Redstage/Banner/i18n/en_US.csv app/code/Redstage/Banner/i18n/en_US.csv
+app/code/Redstage/Banner/etc/module.xml app/code/Redstage/Banner/etc/module.xml
+app/code/Redstage/Banner/etc/config.xml app/code/Redstage/Banner/etc/config.xml
+app/code/Redstage/Banner/etc/adminhtml/system.xml app/code/Redstage/Banner/etc/adminhtml/system.xml
+app/code/Redstage/Banner/Block/Promo.php app/code/Redstage/Banner/Block/Promo.php
+app/code/Redstage/Banner/Block/AbstractBlock.php app/code/Redstage/Banner/Block/AbstractBlock.php
+app/code/Redstage/Banner/Block/Adminhtml/System/Config/Editor.php app/code/Redstage/Banner/Block/Adminhtml/System/Config/Editor.php
+app/code/Redstage/Banner/view/frontend/layout/cms_index_index.xml app/code/Redstage/Banner/view/frontend/layout/cms_index_index.xml
+app/code/Redstage/Banner/view/frontend/web/js/promo.js app/code/Redstage/Banner/view/frontend/web/js/promo.js
+app/code/Redstage/Banner/view/frontend/web/css/styles.css app/code/Redstage/Banner/view/frontend/web/css/styles.css
+app/code/Redstage/Banner/view/frontend/templates/promo.phtml app/code/Redstage/Banner/view/frontend/templates/promo.phtml
+app/code/Redstage/Banner/view/adminhtml/layout/adminhtml_system_config_edit.xml app/code/Redstage/Banner/view/adminhtml/layout/adminhtml_system_config_edit.xml
+app/code/Redstage/Banner/composer.json app/code/Redstage/Banner/composer.json
+app/code/Redstage/Banner/Helper/Data.php app/code/Redstage/Banner/Helper/Data.php
+app/code/Redstage/Banner/registration.php app/code/Redstage/Banner/registration.php

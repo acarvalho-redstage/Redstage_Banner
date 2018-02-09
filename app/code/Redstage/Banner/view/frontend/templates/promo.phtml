@@ -1,0 +1,28 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+?>
+<?php /** @var \Redstage\Banner\Block\Promo $block */ ?>
+<div id="banner_promo_modal" style="display: none">
+    <!-- Content -->
+</div>
+<script>
+    window.bannerPromoConfig = <?php echo /* @escapeNotVerified */ $block->getSerializedConfig() ?>;
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "modal_overlay": {
+                        "component": "Redstage_Banner/js/promo"
+                    }
+                }
+            }
+        }
+    }
+</script>
